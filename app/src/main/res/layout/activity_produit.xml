@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryBackground"
+    tools:context=".activities.ProduitActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="391dp"
+        android:layout_height="457dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="229dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="14dp"
+        android:background="@color/colorFormBackground"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Id :"
+            app:fontFamily="monospace" />
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="5dp"
+            android:enabled="false"
+            android:hint="id"
+            android:inputType="textEmailAddress" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reference :"
+            app:fontFamily="monospace" />
+
+        <EditText
+            android:id="@+id/Reference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="5dp"
+            android:hint="Reference"
+            android:inputType="textEmailAddress" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Designation :" />
+
+        <EditText
+            android:id="@+id/Designation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="5dp"
+            android:hint="Designation"
+            android:inputType="textEmailAddress" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="quantite :" />
+
+        <EditText
+            android:id="@+id/quantite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:layout_marginBottom="20dp"
+            android:hint="quantite"
+            android:inputType="textEmailAddress" />
+
+        <LinearLayout
+            android:id="@+id/ly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorFormBackground"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/editbtn"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="5dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="Edit"
+                android:textAllCaps="false"
+                android:textColor="@color/colorFormBackground" />
+
+            <Button
+                android:id="@+id/deletebtn"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="5dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="Delete"
+                android:textAllCaps="false"
+                android:textColor="@color/colorFormBackground" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/gobackbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Go back"
+            android:textAllCaps="false"
+            android:textColor="@color/colorFormBackground" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginRight="135dp"
+        android:layout_marginBottom="562dp"
+        tools:srcCompat="@tools:sample/avatars" />
+</RelativeLayout>

@@ -1,13 +1,15 @@
 package ma.emsi.gestionstock.model;
 
-public class Produit {
+
+
+public class ProduitResponse {
 
     private int id,quantite;
     private String reference, designation;
     private int fournisseur;
 
 
-    public Produit(int id, int quantite, String reference, String designation, int fournisseur) {
+    public ProduitResponse(int id, int quantite, String reference, String designation, int fournisseur) {
         this.id = id;
         this.quantite = quantite;
         this.reference = reference;
@@ -35,6 +37,7 @@ public class Produit {
         this.fournisseur = fournisseur;
     }
 
+
     public int getId() {
         return id;
     }
@@ -54,6 +57,5 @@ public class Produit {
     public int getFournisseur() {
         return fournisseur;
     }
-
 
 }

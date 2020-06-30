@@ -4,20 +4,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-import android.util.Patterns;
+
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 import ma.emsi.gestionstock.R;
 import ma.emsi.gestionstock.api.RetrofitClient;
 import ma.emsi.gestionstock.model.LoginResponse;
-import ma.emsi.gestionstock.model.User;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -27,7 +24,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     private EditText editTextEmail;
     private EditText editTextPassword;
-    private ArrayList userslist;
     private List<LoginResponse> logresp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,7 +75,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                             startActivity(intent);
                           }
                 }
-                Toast.makeText(LoginActivity.this,"bad login",Toast.LENGTH_LONG).show();
+
 
 
 
