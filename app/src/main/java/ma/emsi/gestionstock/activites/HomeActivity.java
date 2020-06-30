@@ -77,7 +77,7 @@ public class HomeActivity extends AppCompatActivity {
                         TextView reference = row.findViewById(R.id.reference);
                         TextView designation = row.findViewById(R.id.designation);
                         TextView quantite = row.findViewById(R.id.quantite);
-
+                        TextView prix = row.findViewById(R.id.prix);
 
                          img.setImageResource(R.drawable.prod);
                          reference.setText("Reference :"+prodresp.get(position).getReference());
@@ -103,8 +103,9 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(HomeActivity.this,ProduitActivity.class);
-
                 intent.putExtra("id",Integer.toString(prodresp.get(position).getId()));
+                intent.putExtra("prix",Float.toString(prodresp.get(position).getPrixU()));
+
                 intent.putExtra("Reference",prodresp.get(position).getReference());
                 intent.putExtra("Designation",prodresp.get(position).getDesignation());
                 intent.putExtra("quantite",Integer.toString(prodresp.get(position).getQuantite()));

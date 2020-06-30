@@ -5,16 +5,25 @@ package ma.emsi.gestionstock.model;
 public class ProduitResponse {
 
     private int id,quantite;
+    private float prixU;
     private String reference, designation;
     private int fournisseur;
 
-
-    public ProduitResponse(int id, int quantite, String reference, String designation, int fournisseur) {
+    public ProduitResponse(int id, int quantite, float prixU, String reference, String designation, int fournisseur) {
         this.id = id;
         this.quantite = quantite;
+        this.prixU = prixU;
         this.reference = reference;
         this.designation = designation;
         this.fournisseur = fournisseur;
+    }
+
+    public float getPrixU() {
+        return prixU;
+    }
+
+    public void setPrixU(float prixU) {
+        this.prixU = prixU;
     }
 
     public void setId(int id) {
