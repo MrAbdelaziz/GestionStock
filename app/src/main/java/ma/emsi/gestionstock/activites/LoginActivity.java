@@ -66,16 +66,21 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             public void onResponse(Call<LoginResponse[]> call, Response<LoginResponse[]> response) {
                 //response.body();
                 logresp = Arrays.asList(response.body());
-
+                boolean isgood = false;
                 for (LoginResponse lg:logresp) {
                           if(lg.getUsername().equals(email) && lg.getPassword().equals(password)){
                             Toast.makeText(LoginActivity.this,"welcome "+lg.getUsername(),Toast.LENGTH_LONG).show();
                             Intent intent = new Intent(LoginActivity.this,HomeActivity.class);
                             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
                             startActivity(intent);
+                              isgood=true;
                           }
                 }
+                if(!isgood){
+                    Toast.makeText(LoginActivity.this,"sorry :BAD LOGIN",Toast.LENGTH_LONG).show();
 
+
+                }
 
 
 

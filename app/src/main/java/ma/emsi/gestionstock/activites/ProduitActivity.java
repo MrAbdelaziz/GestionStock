@@ -163,10 +163,10 @@ public class ProduitActivity extends AppCompatActivity{
         call.enqueue(new Callback<DefaultResponse>() {
             @Override
             public void onResponse(Call<DefaultResponse> call, Response<DefaultResponse> response) {
-                if(!response.body().isErr()){
+                //if(!response.body().isErr()){
                     Intent intent = new Intent(ProduitActivity.this,HomeActivity.class);
                     startActivity(intent);
-                }
+               // }
             }
 
             @Override
