@@ -3,6 +3,7 @@ Développement d'une application Android de gestion de stock en utilisant Retrof
 
 ## Implement
 - Retrofit
+- Custom Adapter
 
 ## API
 - Django REST framework (https://github.com/MrAbdelaziz/GestionStock-django)
