@@ -1,2 +1,2 @@
 # GestionStock
-Andorid + retrofit
+Conception et réalisation d'une application Andorid de gestion de stock
