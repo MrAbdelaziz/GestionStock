@@ -1,2 +1,2 @@
 # GestionStock
-Conception et réalisation d'une application Andorid de gestion de stock
+Développement d'une application Android de gestion de stock en utilisant Retrofit
