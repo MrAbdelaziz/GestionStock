@@ -1,6 +1,5 @@
 # GestionStock (Android)
 ![GitHub license](https://img.shields.io/github/license/oussamabonnor1/BrainPowerApp.svg)
-![MrAbdelaziz](https://img.shields.io/badge/Made%20by-MrAbdelaziz-yellow)
 ![GitHub watchers](https://img.shields.io/github/watchers/MrAbdelaziz/GestionStock?style=social)
 
 Développement d'une application Android de gestion de stock en utilisant Retrofit
