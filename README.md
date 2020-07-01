@@ -16,3 +16,6 @@ Edit Product           |Delete product
 :-------------------------:|:-------------------------:|
 <img align="left" height="350" src="https://github.com/MrAbdelaziz/GestionStock/blob/master/ScreenShot/edit%20product.jpg">  |<img align="center" height="350" src="https://github.com/MrAbdelaziz/GestionStock/blob/master/ScreenShot/delete%20product.jpg">
 
+## Contact :
+iG: https://www.instagram.com/_.abdelaziz._/
+linkedin: https://www.linkedin.com/in/abdelazizelouahab/
