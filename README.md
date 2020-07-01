@@ -5,7 +5,7 @@ Développement d'une application Android de gestion de stock en utilisant Retrof
 - Retrofit
 
 ## API
-- API: https://192.168.1.74:8080/API/
+- API (https://github.com/MrAbdelaziz/GestionStock-django)
 
 ##developers :
 - MrAbdelaziz(https://github.com/MrAbdelaziz)
