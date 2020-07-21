@@ -26,4 +26,3 @@ If you have any suggestions or any comments please feel free to contact me or to
 
 ## social media :
 - iG: https://www.instagram.com/_.abdelaziz._/
-- linkedin: https://www.linkedin.com/in/abdelazizelouahab/
